@@ -7,7 +7,7 @@ const gTTS = require('gtts');
 const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "YOUR API KEY",
 });
 
 const openai = new OpenAIApi(configuration);
